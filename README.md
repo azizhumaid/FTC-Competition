@@ -10,7 +10,7 @@ material-kit/
 ├── README.md
 ├── assets
 │   ├── css
-│   │   ├── material-kit.css
+│   │   ├── material.css
 │   ├── img
 │   ├── js
 │   ├── material-kit.js
