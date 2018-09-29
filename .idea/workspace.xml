@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b83adf2-6fa6-4bb1-9750-b3cd7e1a7578" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/js/material-kit.js" afterPath="$PROJECT_DIR$/assets/js/material-kit.js" />
-      <change beforePath="$PROJECT_DIR$/template1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/css/material.css" afterPath="$PROJECT_DIR$/assets/css/material.css" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="material-kit.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="material-kit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/material-kit.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -51,18 +49,27 @@
       <file leaf-file-name="material.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/material.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="81673">
+              <caret line="5678" column="1" lean-forward="false" selection-start-line="5678" selection-start-column="1" selection-end-line="5678" selection-end-column="1" />
+              <folding>
+                <element signature="e#60785#60988#2" expanded="true" />
+                <element signature="e#61216#61368#2" expanded="true" />
+                <element signature="e#61890#62039#2" expanded="true" />
+                <element signature="e#62357#62523#1" expanded="true" />
+                <element signature="e#71394#71637#2" expanded="true" />
+                <element signature="e#72573#72822#2" expanded="true" />
+                <element signature="e#97332#97525#2" expanded="true" />
+                <element signature="e#97573#97766#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="285">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -83,10 +90,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/material-kit.css" />
-        <option value="$PROJECT_DIR$/assets/css/material.css" />
         <option value="$PROJECT_DIR$/assets/js/material-kit.js" />
+        <option value="$PROJECT_DIR$/assets/css/material.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -181,12 +188,12 @@
       <option name="presentableId" value="Default" />
       <updated>1538225708680</updated>
       <workItem from="1538225711352" duration="384000" />
-      <workItem from="1538229116113" duration="949000" />
+      <workItem from="1538229116113" duration="1336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1333000" />
+    <option name="totallyTimeSpent" value="1720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1080" y="0" width="1080" height="1920" extended-state="0" />
@@ -246,18 +253,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/js/material-kit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/material.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -279,10 +278,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/material-kit.js">
+    <entry file="file://$PROJECT_DIR$/assets/css/material.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="81673">
+          <caret line="5678" column="1" lean-forward="false" selection-start-line="5678" selection-start-column="1" selection-end-line="5678" selection-end-column="1" />
+          <folding>
+            <element signature="e#60785#60988#2" expanded="true" />
+            <element signature="e#61216#61368#2" expanded="true" />
+            <element signature="e#61890#62039#2" expanded="true" />
+            <element signature="e#62357#62523#1" expanded="true" />
+            <element signature="e#71394#71637#2" expanded="true" />
+            <element signature="e#72573#72822#2" expanded="true" />
+            <element signature="e#97332#97525#2" expanded="true" />
+            <element signature="e#97573#97766#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding />
         </state>
       </provider>
