@@ -5086,7 +5086,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label{color:rgba(0, 0, 0
 .page-header .title{color:#fff;}
 .page-header.header-small{height:65vh;min-height:65vh;}
 .page-header .iframe-container iframe{width:100%;box-shadow:0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);}
-.header-filter{position:relative;}
+.header-filter{position:relative;display: inline-block}
 .header-filter::before{background:rgba(0, 0, 0, 0.5);}
 .header-filter .container{z-index:2;position:relative;}
 .clear-filter::before{background:none;}

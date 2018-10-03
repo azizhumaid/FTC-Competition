@@ -1,12 +1,8 @@
 
 var big_image;
-
 $(document).ready(function() {
   BrowserDetect.init();
-
-  // Init Material scripts for buttons ripples, inputs animations etc, more info on the next link https://github.com/FezVrasta/bootstrap-material-design#materialjs
-  $('body').bootstrapMaterialDesign();
-
+  // Init Material scripts for buttons ripples, inputs animations etc
   window_width = $(window).width();
 
   $navbar = $('.navbar[color-on-scroll]');
@@ -237,16 +233,28 @@ var BrowserDetect = {
 };
 
 $(document).ready(function() {
-    var footer = $('h4');
+    var fedeOutText = $('h4');
     $(window).scroll(function() {
         if (($(window).scrollTop() + $(window).height()>= $(document).height() - 50)
-            && footer.is(':visible')) {
-            footer.stop().fadeOut(500);
+            && fedeOutText.is(':visible')) {
+            fedeOutText.stop().fadeOut(500);
         } else if (($(window).scrollTop() < $(document).height() - 500)
-            && footer.is(':hidden')) {
-            footer.stop().fadeIn(500);
+            && fedeOutText.is(':hidden')) {
+            fedeOutText.stop().fadeIn(500);
         }
     });
 });
 
 
+$(document).ready(function() {
+    var fedeOutText = $('img');
+    $(window).scroll(function() {
+        if (($(window).scrollTop() + $(window).height()>= $(document).height() - 20)
+            && fedeOutText.is(':visible')) {
+            fedeOutText.stop().fadeOut(500);
+        } else if (($(window).scrollTop() < $(document).height() - 100)
+            && fedeOutText.is(':hidden')) {
+            fedeOutText.stop().fadeIn(500);
+        }
+    });
+});
