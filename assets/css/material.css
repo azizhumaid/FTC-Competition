@@ -5538,3 +5538,19 @@ footer .pull-center{display:inline-block;float:none;}
         .card-profile .card-header-image{max-height:215px;}
     }
 }
+@media (max-width:992px) {
+    .header-filter {
+        display: contents;
+    }
+    .copyright {
+        display: none;
+    }
+    .material-icons {
+        display: none;
+    }
+}
+@media (min-width:992px) {
+    .header-filter {
+        display: flex;
+    }
+}
