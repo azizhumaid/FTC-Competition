@@ -5540,7 +5540,7 @@ footer .pull-center{display:inline-block;float:none;}
 }
 @media (max-width:992px) {
     .header-filter {
-        display: contents;
+        display: flex;
     }
     .copyright {
         display: none;
